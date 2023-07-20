@@ -223,11 +223,24 @@ nav .menu-section .follow-us {
     margin-top: 20px;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+}
+
+.online-games .cards .c-container .overlay{
+    border-radius: 15px;
+    background:black;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.online-games .cards .c-container img:hover{
+   opacity: 0.5;
 }
 
 .online-games .cards .c-container .c-description{
     width: 90%;
+    background: #fff;
 }
 
 .play-section {
