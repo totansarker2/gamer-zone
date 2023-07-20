@@ -423,27 +423,16 @@ footer .policy p{
     .hide {
         display: none;
     }
-
+    
     .description {
         width: 250px;
-    }
-
-    header {
-        width: 100vw;
-        border: 2px solid black;
-        height: auto;
     }
 
     nav, nav .menu-section, .banner-section, .cards, .we-are-gamer, .play-section .play-instant, .play-section .play-games, .career-section .career-wrapper {
         flex-direction: column;
     }
 
-    /* .banner-section img{
-        width: auto;
-        height: auto;
-    } */
     .online-games {
-        border: 1px solid black;
         text-align: center;
     }
 
@@ -486,6 +475,10 @@ footer .policy p{
 
     .play-section .play-img .ab-img2 {
         max-width: 40%;
+    }
+
+    footer{
+        width: 100vw;
     }
 
 }
