@@ -249,6 +249,7 @@ nav .menu-section .follow-us {
     flex-direction: column;
     align-items: center;
     text-align: right;
+    margin-right: 15%;
 }
 
 .play-section .play-games {
@@ -258,13 +259,18 @@ nav .menu-section .follow-us {
     align-items: center;
 }
 
-/* 
+
 .play-section .play-games .sec-description{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     text-align: right;
-} */
+    margin-left: 15%;
+}
+
+.play-section .p-color{
+    color: #FF42A5;
+}
 
 .play-section .play-img {
     width: auto;
